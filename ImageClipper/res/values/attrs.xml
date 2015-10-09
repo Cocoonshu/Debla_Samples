@@ -1,0 +1,11 @@
+<resources>
+	<declare-styleable name="ImageClipper">  
+	     <attr name="lineColor"        format="reference|color" />
+	     <attr name="frameColor"       format="reference|color" />
+	     <attr name="cornerColor"      format="reference|color" />
+	     <attr name="lineWidth"        format="dimension" />
+	     <attr name="frameLineWidth"   format="dimension" />
+	     <attr name="cornerLineWidth"  format="dimension" />
+	     <attr name="cornerLineHeight" format="dimension" />
+	</declare-styleable>
+</resources>

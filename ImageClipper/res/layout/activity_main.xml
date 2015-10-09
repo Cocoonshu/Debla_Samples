@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:coview="http://schemas.android.com/apk/res/com.cocoonshu.example.imageclipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF333333"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/ImageViewBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image" />
+
+    <com.cocoonshu.example.imageclipper.view.ImageClipper
+        android:id="@+id/ImageClipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        coview:lineColor="@drawable/clipper_line_selector"
+        coview:frameColor="@drawable/clipper_frame_line_selector"
+        coview:cornerColor="@drawable/clipper_corner_line_selector"
+        coview:cornerLineHeight="12dp" />
+    
+</FrameLayout>
